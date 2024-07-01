@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimberly Stegall - Official Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: right;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+        }
+        .showcase {
+            min-height: 400px;
+            background: url('showcase.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        .content {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Kimberly Stegall</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#dark-diamond-art">Dark Diamond Art</a></li>
+                    <li><a href="#consequence-of-silence">Consequence of Silence</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="showcase">
+        <div class="container">
+            <h1>Welcome to My World</h1>
+            <p>Explore my journey as a content creator, vocalist, and artist.</p>
+        </div>
+    </section>
+    <section class="content">
+        <div class="container" id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Kimberly Stegall, a passionate social media content creator, vocalist and songwriter for the band Consequence of Silence, and the artist behind Dark Diamond Art. I love expressing myself through music and art, and I enjoy sharing my creativity with the world.</p>
+        </div>
+        <div class="container" id="consequence-of-silence">
+            <h2>Consequence of Silence</h2>
+            <p>As the vocalist and songwriter of Consequence of Silence, I pour my heart and soul into our music. Check out our latest tracks and follow us on ReverbNation:</p>
+            <p><a href="http://www.reverbnation.com/cosla">www.reverbnation.com/cosla</a></p>
+        </div>
+        <div class="container" id="dark-diamond-art">
+            <h2>Dark Diamond Art</h2>
+            <p>Dark Diamond Art is my creative outlet for visual art. Here, I explore different forms and styles, creating pieces that reflect my inner world. Stay tuned for more updates and showcases.</p>
+        </div>
+        <div class="container" id="contact">
+            <h2>Contact</h2>
+            <p>Let's connect on social media! Follow me on Facebook:</p>
+            <p><a href="http://facebook.com/kds537">Facebook.com/kds537</a></p>
+        </div>
+    </section>
+    <footer>
+        <p>Kimberly Stegall &copy; 2024</p>
+    </footer>
+</body>
+</html> 
